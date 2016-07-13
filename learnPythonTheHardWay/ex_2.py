@@ -1,10 +1,7 @@
-from sys import argv
-
-script, filename = argv
+print "please input a filename:"
+filename = raw_input("> ")
 
 txt = open(filename)
-
-print "Your filename %r." % filename
 
 print "The content of file %r :" % filename
 print txt.read()
